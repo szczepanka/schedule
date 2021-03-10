@@ -4,7 +4,7 @@
 function Location() {
     return (
       <div className="location">
-  
+        
       </div>
     );
   }

@@ -1,9 +1,12 @@
+import './speakers.css'
 
-
-function Speakers() {
+function Speakers(props) {
   return (
-    <div className="speakers">
-SPEAKERS
+    <div className="speaker">
+        {props.name}
+      <div className="speaker-content">
+      {props.topic}
+      </div>
     </div>
   );
 }

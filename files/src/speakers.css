@@ -1,0 +1,20 @@
+.speaker{
+    display: flex;
+    flex-flow: column wrap;
+    font-weight: bolder;
+    background-color: rgba(0, 128, 128);
+    height: auto; 
+    width: fit-content;
+    margin: 20px;
+}
+
+.speaker-content{
+    flex-basis: auto;
+    margin: 10px;
+    background-color: inherit;
+    align-content: space-between;
+}
+
+.speaker:hover{
+    background-color: violet;
+}
